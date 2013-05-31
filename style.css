@@ -1,0 +1,70 @@
+body{width: 100%; min-width: 75em; margin:0px; background-color: #FFCE73;}
+section
+{
+	clear: both;
+}
+nav ul
+{
+	float: right;
+}
+nav ul li
+{
+	display: inline-block;
+	float: right;
+	height: 1em;
+	text-align: center;
+	margin: 3em 5em 3em 5em;
+	font-family: Garamond;
+	font-size: 1.1em;
+}
+nav ul li a
+{
+	text-transform: none;
+	text-decoration: none;
+	color: maroon;
+}
+nav ul li:hover
+{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#topbar
+{
+	background-color: #FFA500;
+	display: block;
+	height: 10em;
+
+	border-bottom: 1px #ccc solid;
+
+}
+#logo
+{
+	width: 20%;
+	height: 7em;
+	float:left;
+	margin: 0px;
+}
+#logo h1
+{
+	margin-top: 1.5em;
+	text-align: center;
+	font-family: "Segoe UI";
+	font-size: 2em;
+}
+article
+{
+	margin: 3em 3em 3em 3em;	
+	background-color: #FFBC40;
+}
+#whatabout
+{
+	clear: both;
+	font-family: cursive;
+	font-size: 1.2em;
+}
+#whatabout span
+{
+	text-align: center;
+	font-size: 4em;
+}
