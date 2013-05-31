@@ -1,0 +1,63 @@
+@charset "UTF-8"
+/*General body style.*/
+body {
+		background:#d0d0d0;
+		border: 4px #808080 solid;
+	 }
+/*General button style.*/
+button {
+		border: 4px #484848 solid;
+		font-family: "Tahoma",sans-serif;
+		font-size:14px
+	   }
+/*Style for all buttons with numbers.*/
+button.number {
+				background:#ccffff;
+				color:#00ff00;
+			  }
+/*Style for all buttons with operands.*/
+button.operand {
+				background:#ffffcc;
+				color:#003366;
+			   }
+/*Style for all buttons with mathematic functions.*/
+button.func {
+				background:#ccff99;
+				color:#ffcc00;
+			}
+/*Style for the clear button.*/
+button#ce {
+			background:#ffff00;
+			color:#cc0000;
+		  }		
+/*Style for the clear memory button.*/
+button#mc {
+			 background:#ccff00;
+             color:#ff0000;
+		  }
+/*Style for the remove from memory button.*/
+button#mminus {
+			background:#ff9933;
+			color:#cc3300;
+		  }
+/*Style for the add to memory button.*/
+button#mplus {
+			background:#66ff33;
+			color:#3300cc;
+		  }
+/*Style for the pi button.*/
+button#pi {
+			background:#606060;
+			color:#000066;
+		  }
+/*Style for the e button.*/
+button#e {
+			background:#800000;
+			color:#ffcc00;
+		 }
+/*Style for the = button.*/
+button#assign {
+				background:#000099;
+				color:#ffffff;
+			  }
+
